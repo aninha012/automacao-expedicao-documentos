@@ -1,0 +1,11 @@
+Abre o Navegador
+Login no SEI
+Acessa o primeiro processo na lista na primeira aba
+Analizar arvore de documentos
+Porcura o documento: Formulário de Solicitação de Expedição (que pode estar escrito somente Formulário)
+Extrair os links dos documentos da tabela (usando BeautifulSoup)
+Converter imagens em PDF (se houver)
+Unir todos os PDFs na ordem da tabela
+Nomear arquivo consolidado com o número do processo
+Salvar na pasta de destino
+Exibir mensagem “Expedição concluída com sucesso”
