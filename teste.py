@@ -16,8 +16,8 @@ load_dotenv()
 login = os.getenv("LOGIN")
 senha = os.getenv("SENHA")
 
-processo_desejado = "19975.041604/2025-83"
-PASTA_SAIDA = r"C:\PDFs_SEI_19975.041604/2025-83"
+processo_desejado = "número do processo"
+PASTA_SAIDA = r"C:\PDFs_SEI_número do processo"
 os.makedirs(PASTA_SAIDA, exist_ok=True)
 
 # ABRIR NAVEGADOR
@@ -174,3 +174,4 @@ except Exception as e:
     print(f"⚠ Erro geral: {e}")
 
 driver.quit()
+
