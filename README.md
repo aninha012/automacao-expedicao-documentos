@@ -1,7 +1,5 @@
 # Automacão De Expedição De Documentos
 
-# PROJCORREIOS
-
 ## Visão Geral
 
 Projeto desenvolvido em Python para automatizar atividades relacionadas à expedição de documentos no SEI. A solução acessa processos, identifica e baixa arquivos vinculados, extrai informações relevantes e consolida os dados em planilhas Excel, permitindo a geração de etiquetas e apoio à etapa de impressão.
