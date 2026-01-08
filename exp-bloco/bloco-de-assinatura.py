@@ -18,8 +18,8 @@ load_dotenv()
 login = os.getenv("LOGIN")
 senha = os.getenv("SENHA")
 
-INICIO = "19975.011568/2025-23"
-FIM    = "19975.011797/2025-48"
+INICIO = "número do processo"
+FIM    = "número do processo"
 
 processos_processados = set()
 PASTA_DOWNLOADS = os.path.join(os.path.expanduser("~"), "Downloads")
@@ -397,3 +397,4 @@ while True:
         break
 
 print("✔ Rotina finalizada.")
+
